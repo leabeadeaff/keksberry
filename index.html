@@ -3,61 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>Кваст</title>
+     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <img alt="Лого сайта" src="img/logo.png">
-      <ul>
-        <li><a href="#">История</a></li>
-        <li><a href="#">Производство</a></li>
-        <li><a href="#">Ассортимент</a></li>
-        <li><a href="#">Где купить</a></li>
-      </ul>
-      <p>Крафтовый квас<br>всему голова!</p>
-    </div>
-    <div>
-      <h2>Новинки</h2>
-      <div>
-        <h3>Вахтёр</h3>
-        <table>
-          <tr>
-            <td>Алк.</td>
-            <td>< 1%</td>
-          </tr>
-          <tr>
-            <td>Ккал</td>
-            <td>35</td>
-          </tr>
-        </table>
-        <p>Ржаной хлеб, Вода, Солод, Соль</p>
-        <img alt="Вахтёр" src="img/bottle-left.jpg">
-        <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-        <a href="#">Подробнее</a>
-        <a href="#">Купить</a>
-        <strong>150 Р.</strong>
-      </div>
-      <div>
-        <h3>Романтик</h3>
-        <table>
-          <tr>
-            <td>Алк.</td>
-            <td>< 0,5%</td>
-          </tr>
-          <tr>
-            <td>Ккал</td>
-            <td>27</td>
-          </tr>
-        </table>
-        <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
-        <img alt="Романтик" src="img/bottle-right.jpg">
-        <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
-        <a href="#">Подробнее</a>
-        <a href="#">Купить</a>
-        <strong>90 Р.</strong>
+    <div class="header">
+      <div class="container-min">
+        <div class="header-top clearfix">
+          <div class="header-logo">
+            <img alt="Лого сайта" src="img/logo.png">
+          </div>
+          <ul>
+            <li><a href="#">История</a></li>
+            <li><a href="#">Производство</a></li>
+            <li><a href="#">Ассортимент</a></li>
+            <li><a href="#">Где купить</a></li>
+          </ul>
+        </div>
+        <p class="header-title">Крафтовый квас<br>всему голова!</p>
       </div>
     </div>
-    <div>
-      <ul>
+    <div class="new">
+      <div class="container-min">
+        <h2 class="title-arial">Новинки</h2>
+        <div>
+          <h3 class="title-arial">Вахтёр</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>< 1%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>35</td>
+            </tr>
+          </table>
+          <p>Ржаной хлеб, Вода, Солод, Соль</p>
+          <img alt="Вахтёр" src="img/bottle-left.jpg">
+          <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+          <a href="#">Подробнее</a>
+          <a href="#">Купить</a>
+          <strong>150 Р.</strong>
+        </div>
+        <div>
+          <h3 class="title-arial">Романтик</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>< 0,5%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>27</td>
+            </tr>
+          </table>
+          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+          <img alt="Романтик" src="img/bottle-right.jpg">
+          <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+          <a href="#">Подробнее</a>
+          <a href="#">Купить</a>
+          <strong>90 Р.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="container-max">
+        <ul>
         <li>
           <h2>Варим сами</h2>
           <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
@@ -70,10 +80,11 @@
           <h2>Не экономим</h2>
           <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
         </li>
-      </ul>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h2>Немного истории</h2>
+    <div class="history">
+      <h2 class="title-arial">Немного истории</h2>
       <dl>
         <dt>Происхождение кваса <i>Источник: <a href="#">ru.wikipedia.org</a></i></dt>
         <dd>
@@ -87,16 +98,16 @@
         </dd>
       </dl>
     </div>
-    <div>
-      <h2>Пресса о нас</h2>
+    <div class="review">
+      <h2 class="title-arial">Пресса о нас</h2>
       <blockquote>
         <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
         <cite>Газета cтоличный Стольник</cite>
         <a href="#">Читать далее</a>
       </blockquote>
     </div>
-    <div>
-      <h2>Ассортимент</h2>
+    <div class="assorti">
+      <h2 class="title-arial">Ассортимент</h2>
       <table>
         <tr>
           <th>Название</th>
@@ -135,8 +146,8 @@
         </tr>
       </table>
     </div>
-    <div>
-      <h2>Заказать</h2>
+    <div class="buy">
+      <h2 class="title-arial">Заказать</h2>
       <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
       <form>
         <div>
@@ -170,7 +181,7 @@
         <input type="submit" value="Отправить заказ">
       </form>
     </div>
-    <div>
+    <div class="footer">
       <img alt="логотип сайта" src="img/logo.png">
       <ul>
         <li><a href="#">История</a></li>

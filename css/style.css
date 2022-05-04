@@ -1,0 +1,153 @@
+/* kek */
+
+.container-max {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.container-min {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* main */
+
+body {
+    width: 1200px;
+    margin: 0;
+}
+
+.header {
+    height: 550px;
+    background-color: rgb(111,73,19);
+    background-image: url(../img/wheat-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.header-top {
+    padding-top: 60px;
+    padding-bottom: 59px;
+}
+
+.header img {
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+
+.header ul {
+    float: left;
+    margin-left: 60px;
+    min-width: 600px;
+    height: 59px;
+}
+
+.header-title {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.new {
+    height: 1084;
+}
+
+.features{
+    height: 410px;
+    background-color: #ffca78;
+}
+
+.history {
+    height: 680px;
+    background-color: white;
+}
+
+.review {
+    height: 480px;
+    background-color: #ede4d7;
+}
+
+.assorti {
+    height: 643px;
+    background-color: white;
+}
+
+.buy {
+    height: 1185px;
+    background-color: #ffca78;
+}
+
+.footer {
+    height: 294px;
+    background-color: black;
+}
+
+.title-arial {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer ul,.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+ /* styleguide */
+
+ .footer ul li, .header ul li {
+     display: inline-block;
+     font-size: 16px;
+     font-family: Arial, sans-serif;
+     font-weight: bold;
+     text-transform: uppercase;
+
+ }
+
+
+
+.footer ul li a, .header ul li a{
+    color: white;
+    padding: 24px 27.5px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(255,255,255,0.3); 
+    text-decoration: none;
+}
+
+/*
+.header ul li:first-child a{
+    background-color: red;
+    padding: 24px 27.5px 24px 0;
+}
+
+.header ul li:last-child a{
+    background-color: red;
+    padding: 24px 2px 24px 27.5px;
+}
+
+*/
+
+.footer ul li a:hover, .header ul li a:hover{
+    color: #ffcb78;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.footer ul li a:active, .header ul li a:active{
+    color: #594426;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
