@@ -30,10 +30,12 @@ body {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
+    padding-top: 60px;
+    padding-left: 75px;
 }
 
 .header-top {
-    padding-top: 60px;
+
     padding-bottom: 59px;
 }
 
